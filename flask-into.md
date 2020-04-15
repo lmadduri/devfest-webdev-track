@@ -10,12 +10,8 @@ Written and developed by [Raymond Xu](http://www.raymondxu.io), [Matt Piccolella
 ## Methodology
 This guide will teach you fundamental concepts of web development by guiding you through the process of building a reading list app. We will begin by setting up a basic webpage in Flask, and then we'll incrementally add features level by level. After finishing this tutorial, you will have built a fully-functional reading list app that allows you to save a list of favorite books for each of your users.
 
-## Prerequisites
-Basic knowledge of the Python programming language is suggested. If you don't already know Python, check out [this ADI-developed tutorial][python-intro]. No knowledge of HTML, CSS or Flask is expected or required.
-
 <a href="#top" class="top" id="table-of-contents">Top</a>
 # Table of Contents
--	[Level 0: Environment Setup](#level0)
 -	[Level 1: Making Web Pages: Flask and HTML](#level1)
 	-	[1.1 What is Flask](#what-is-flask)
 		-	[1.1.1 How a Flask App Works](#how-a-flask-app-works)
@@ -86,9 +82,6 @@ Basic knowledge of the Python programming language is suggested. If you don't al
 		-	[5.3.3 Changing our Favorites Page](#change_fav_page)
 
 ------------------------------
-<a href="#top" class="top" id="level0">Top</a>
-# Level 0: Environment Setup
-Before we get started, set up your environment using [this guide](http://learn.adicu.com/setup/).
 
 <a href="#top" class="top" id="level1">Top</a>
 # Level 1: Making Web Pages: Flask and HTML
@@ -214,8 +207,6 @@ If it's working, it should print the lines:
 ```
 
 Point your browser to that URL and bask in the awesomeness!
-
-> Wondering what that weird URL is?  `0.0.0.0` lets all public IPs connect to the server.  When we run a Flask server with `python app.py`, it is running only on your machine, not the internet.  The `:5000` bit is the [port][port], or specific place where your app is running.  Developing locally is much easier and safer than publishing your app to the internet every time you want to test something, and is considered good practice.  Also, instead of typing out `http://0.0.0.1:5000` every time you want to see your app, you can also point your browser to `http://localhost:5000`. Try it out!
 
 <a id="developing-with-flask"></a>
 ### 1.2.3 Developing with Flask
